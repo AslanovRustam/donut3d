@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import blueBerry from "../../../public/blueberry.png";
-import apple from "../../../public/apple.png";
-import caramel from "../../../public/caramel.png";
-import leaf1 from "../../../public/leaf.png";
-import leaf2 from "../../../public/leaf2.png";
+import blueBerry from "../assets/blueBerry.png";
+import apple from "../assets/apple.png";
+import caramel from "../assets/caramel.png";
+import leaf1 from "../assets/leaf.png";
+import leaf2 from "../assets/leaf2.png";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import gsap from "gsap";
 import { useRef, useState } from "react";

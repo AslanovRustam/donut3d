@@ -3,11 +3,11 @@ import { useLayoutEffect, useRef, useState } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import blueBerry from "../../../public/blueberry.png";
-import apple from "../../../public/apple.png";
-import caramel from "../../../public/caramel.png";
-import leaf1 from "../../../public/leaf.png";
-import leaf2 from "../../../public/leaf2.png";
+import blueBerry from "../assets/blueBerry.png";
+import apple from "../assets/apple.png";
+import caramel from "../assets/caramel.png";
+import leaf1 from "../assets/leaf.png";
+import leaf2 from "../assets/leaf2.png";
 
 export default function DonutSectionSlider() {
   const [step, setStep] = useState<number>(1);
