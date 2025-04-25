@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import DonutSectionScroll from "../../components/DonutSectionScroll";
+import DonutSectionScroll from "../../components/adaptive/DonutSectionScroll";
 
 export const metadata: Metadata = {
   title: "Scroll ",
